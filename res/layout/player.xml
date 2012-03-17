@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+   
+<LinearLayout 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	>
+	
+	<TextView
+		android:id="@+id/PlayerActivity_lrc_label_textview"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="显示歌词"
+	/>
+	
+	<TextView
+		android:id="@+id/PlayerActivity_lrc_showarea_textview"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+	/>
+	
+	<LinearLayout 
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent" 
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="horizontal">
+		<ImageButton
+			android:id="@+id/player_start"
+			android:layout_width="100dip"
+			android:layout_height="100dip"
+			android:src="@drawable/play"
+		/>
+		<ImageButton
+			android:id="@+id/player_pause"
+			android:layout_width="100dip"
+			android:layout_height="100dip"
+			android:src="@drawable/pause"
+		/>
+		<ImageButton
+			android:id="@+id/player_stop"
+			android:layout_width="100dip"
+			android:layout_height="100dip"
+			android:src="@drawable/stop"
+		/>
+	</LinearLayout>
+	
+	
+</LinearLayout>
